@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
                 DownloadManager downloadManager = (DownloadManager) getSystemService(DOWNLOAD_SERVICE);
                 DownloadManager.Request request = new DownloadManager.Request(Uri.parse("http://netdna.webdesignerdepot.com/uploads/2013/08/batman.jpg"))
                         .setTitle("Lorem ipsum")
-                        .setDescription("Hello")
+                        .setDescription("Hello234")
                         .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
                 downloadManager.enqueue(request);
 
